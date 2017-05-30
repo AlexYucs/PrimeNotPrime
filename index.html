@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<script src="https://use.fontawesome.com/fb2e0a0d61.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<style type="text/css">
+		a {
+			text-decoration: none
+		}
+	</style>
+
+	<title>Alex Yu - University of Maryland Student and Software Engineer</title>
+
+	<!-- Custom styles for this template -->
+	<link href="site.css" rel="stylesheet">
+</head>
+
+
+<body>
+	<!-- Navbar sticky-->
+	<ul>
+		<li><a href="http://alexyucs.com/" style="text-decoration: none">Home</a></li>
+		<li style="float:right"><a href="/resume.pdf" style="text-decoration: none">Resume</a></li>
+		<li style="float:right" class="active"><a href="/Blog" style="text-decoration: none">Blog</a></li>
+		<li style="float:right"><a href="/Projects" style="text-decoration: none">Projects</a></li>
+	</ul>
+
+	<!--Text here-->
+	<div class="site-wrapper">
+		<button id="Testbutton" onclick="submitTest()" >Test</button>
+	</div>
+
+	<!--Footer not sticky-->
+	<footer class="thisfoot">
+		<div class="container">
+			<div class="foottag">
+				<a href="mailto:alex@alexyucs.com">alex@alexyucs.com</a>
+			</div>
+			<a href="https://www.github.com/AlexYucs"><i class="fa fa-github fa-fw fa-3x"></i></a>
+			<a href="https://www.linkedin.com/in/alex-yu-compsci-umd"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+		</div>
+	</footer>
+
+	<script src="https://www.gstatic.com/firebasejs/4.1.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyB_Cfptq4vCR6sW31yl67D5eXczl0YvGbE",
+	    authDomain: "primenotprime-2e065.firebaseapp.com",
+	    databaseURL: "https://primenotprime-2e065.firebaseio.com",
+	    projectId: "primenotprime-2e065",
+	    storageBucket: "primenotprime-2e065.appspot.com",
+	    messagingSenderId: "903832484863"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script src="index.js"></script>
+
+</body>
+</html>

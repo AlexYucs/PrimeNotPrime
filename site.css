@@ -93,8 +93,6 @@ body {
     height: 100%;
     /* For at least Firefox */
     min-height: 100%;
-    margin-bottom: -140px;
-    margin-top: 70px;
 }
 
 .blogmain {
@@ -236,7 +234,7 @@ body {
  */
 
 .thisfoot {
-  position: relative;
+  position: absolute;
 	bottom: 0;
 	width: 100%;
 	margin:0;
@@ -282,9 +280,9 @@ h4 {
         height: 100%;
         /* For at least Firefox */
         min-height: 100%;
-        margin: auto;
-        margin-bottom: -70px;
         margin-top: 70px;
+        margin: auto;
+        padding-top: 10%;
     }
     .sidebar {
         width: 100%;
@@ -321,9 +319,9 @@ h4 {
         height: 100%;
         /* For at least Firefox */
         min-height: 100%;
-        margin: auto;
-        margin-bottom: -70px;
         margin-top: 70px;
+        margin: auto;
+        padding-top: 10%;
     }
     .sidebar {
         width: 100%;

@@ -1,8 +1,12 @@
 //var submitBtn = document.getElementById("Testbutton");
 var sText = document.getElementById("submitText");
 
+var firebaseRef =  firebase.database().ref();
 
-
+firebaseRef.on('value', function(snapshot) {
+  var val = snapshot.val();
+  window.alert(val);
+});
 
 function checkTable() {
   var firebaseRef =  firebase.database().ref();
@@ -12,15 +16,13 @@ function checkTable() {
   }
   else{
 
-    window.alert(firebaseRef.child(thismessage).val())
-
+    firebaseRef.child(thismessage);
     /*if () {
       window.alert("Number is Prime.");
     }
     else{
       window.alert("Number is not Prime");
     }*/
-
   }
 }
 

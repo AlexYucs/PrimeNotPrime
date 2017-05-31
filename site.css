@@ -285,7 +285,7 @@ h4 {
         padding-bottom: 70px;
     }
     .thisfoot {
-        position: fixed;
+        position: relative;
     }
     .sidebar {
         width: 100%;
@@ -327,7 +327,7 @@ h4 {
         padding-bottom: 70px;
     }
     .thisfoot {
-        position: fixed;
+        position: relative;
     }
     .sidebar {
         width: 100%;

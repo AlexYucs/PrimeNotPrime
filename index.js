@@ -8,17 +8,17 @@ function checkTable() {
 
   //check if # in range
   if (thismessage < 0 || thismessage > 9999){
-    window.alert("Number not in range.");
+    window.alert(thismessage+" is not in range.");
   }
   else{
     //set up listener for #
     firebaseRef.on('value', function(snapshot) {
       var val = snapshot.child(thismessage).val();
       if (val) {
-        window.alert("Number is prime.");
+        window.alert(thismessage+" is prime.");
       }
       else{
-        window.alert("Number is not prime");
+        window.alert(thismessage+" is not prime");
       }
     });
   }

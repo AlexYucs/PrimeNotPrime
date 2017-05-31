@@ -281,6 +281,8 @@ h4 {
         /* For at least Firefox */
         min-height: 100%;
         margin: auto;
+        margin-bottom: -70px; /* Put negative height of the footer here */
+        padding-bottom: 70px; 
     }
     .sidebar {
         width: 100%;
@@ -318,6 +320,8 @@ h4 {
         /* For at least Firefox */
         min-height: 100%;
         margin: auto;
+        margin-bottom: -70px; /* Put negative height of the footer here */
+        padding-bottom: 70px;
     }
     .sidebar {
         width: 100%;

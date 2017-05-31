@@ -1,5 +1,22 @@
 //var submitBtn = document.getElementById("Testbutton");
+var submitText = document.getElementById("submitText");
 
+function checkTable() {
+  var firebaseRef =  firebase.database().ref();
+  var thismessage = parseInt(submitText.value,10);
+  if (thismessage < 0 || thismessage > 9999){
+    window.alert("Number not in range.");
+  }
+  else{
+    if firebaseRef.child(thismessage).get() {
+      window.alert("Number is Prime.");
+    }
+    else{
+      window.alert("Number is not Prime");
+    }
+
+  }
+}
 
 function isPrime(num){
   var ceiling = Math.sqrt(num);
@@ -12,7 +29,7 @@ function isPrime(num){
   return true;
 }
 
-function submitTest() {
+function setTable() {
   var i;
   var firebaseRef =  firebase.database().ref();
   for(i = 0; i<10000;i++){

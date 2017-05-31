@@ -93,7 +93,7 @@ body {
     height: 100%;
     /* For at least Firefox */
     min-height: 100%;
-    padding-bottom: 70px;
+    padding-bottom: -70px;
 }
 
 .blogmain {

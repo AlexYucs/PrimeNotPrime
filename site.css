@@ -93,7 +93,6 @@ body {
     height: 100%;
     /* For at least Firefox */
     min-height: 100%;
-    padding-bottom: -70px;
 }
 
 .blogmain {
@@ -235,7 +234,7 @@ body {
  */
 
 .thisfoot {
-  position: relative;
+  position: fixed;
 	bottom: 0;
 	width: 100%;
 	margin:0;

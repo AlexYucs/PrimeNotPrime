@@ -11,11 +11,12 @@ function checkTable() {
     window.alert("Number not in range.");
   }
   else{
-    window.alert(
-      return firebaseRef.once('value').then(function(snapshot) {
-        var rval = snapshot.child(thismessage).val();
-      });
-    );
+
+    firebaseRef.once('value').then(function(snapshot) {
+      var rval = snapshot.child(thismessage).val();
+      window.alert(rval);
+    });
+
     /*if () {
       window.alert("Number is Prime.");
     }

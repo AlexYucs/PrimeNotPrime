@@ -8,12 +8,12 @@ function checkTable() {
     window.alert("Number not in range.");
   }
   else{
-    if firebaseRef.child(thismessage).val() {
+    /*if firebaseRef.child(thismessage).val() {
       window.alert("Number is Prime.");
     }
     else{
       window.alert("Number is not Prime");
-    }
+    }*/
 
   }
 }

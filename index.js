@@ -1,14 +1,14 @@
 //var submitBtn = document.getElementById("Testbutton");
-var submitText = document.getElementById("submitText");
+var sText = document.getElementById("submitText");
 
 function checkTable() {
   var firebaseRef =  firebase.database().ref();
-  var thismessage = parseInt(submitText.value,10);
+  var thismessage = parseInt(sText.value,10);
   if (thismessage < 0 || thismessage > 9999){
     window.alert("Number not in range.");
   }
   else{
-    if firebaseRef.child(thismessage).get() {
+    if firebaseRef.child(thismessage).val() {
       window.alert("Number is Prime.");
     }
     else{

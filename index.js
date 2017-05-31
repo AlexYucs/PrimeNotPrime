@@ -12,7 +12,12 @@ function checkTable() {
   else{
     firebaseRef.on('value', function(snapshot) {
       var val = snapshot.child(thismessage).val();
-      window.alert(val);
+      if (val) {
+        window.alert("Number is Prime.");
+      }
+      else{
+        window.alert("Number is not Prime");
+      }
     });
     /*if () {
       window.alert("Number is Prime.");

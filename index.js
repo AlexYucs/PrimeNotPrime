@@ -2,6 +2,8 @@
 var sText = document.getElementById("submitText");
 
 
+
+
 function checkTable() {
   var firebaseRef =  firebase.database().ref();
   var thismessage = sText.value;
@@ -9,8 +11,13 @@ function checkTable() {
     window.alert("Number not in range.");
   }
   else{
+    /*
+    return firebaseRef.once('value').then(function(snapshot) {
+      var rval = snapshot.child(thismessage).val();
+    });*/
+
     window.alert(
-      "Else"
+      true
     );
     /*if () {
       window.alert("Number is Prime.");

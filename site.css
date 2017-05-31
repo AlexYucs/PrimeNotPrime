@@ -282,6 +282,7 @@ h4 {
         min-height: 100%;
         margin: auto;
         margin-bottom: -70px; /* Put negative height of the footer here */
+        padding-bottom: 70px;
     }
     .thisfoot {
         position: fixed;
@@ -323,6 +324,7 @@ h4 {
         min-height: 100%;
         margin: auto;
         margin-bottom: -70px; /* Put negative height of the footer here */
+        padding-bottom: 70px;
     }
     .thisfoot {
         position: fixed;

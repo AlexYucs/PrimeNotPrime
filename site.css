@@ -284,7 +284,7 @@ h4 {
         margin-bottom: -70px; /* Put negative height of the footer here */
     }
     .thisfoot {
-        position: relative;
+        position: fixed;
     }
     .sidebar {
         width: 100%;
@@ -325,7 +325,7 @@ h4 {
         margin-bottom: -70px; /* Put negative height of the footer here */
     }
     .thisfoot {
-        position: relative;
+        position: fixed;
     }
     .sidebar {
         width: 100%;

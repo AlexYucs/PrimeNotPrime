@@ -3,7 +3,7 @@ var sText = document.getElementById("submitText");
 
 function checkTable() {
   var firebaseRef =  firebase.database().ref();
-  var thismessage = parseInt(sText.value,10);
+  var thismessage = sText.value;
   if (thismessage < 0 || thismessage > 9999){
     window.alert("Number not in range.");
   }

@@ -1,33 +1,33 @@
 //var submitBtn = document.getElementById("Testbutton");
 var sText = document.getElementById("submitText");
 
-
-
+//Used for button
 function checkTable() {
   var firebaseRef =  firebase.database().ref();
   var thismessage = sText.value;
+
+  //check if # in range
   if (thismessage < 0 || thismessage > 9999){
     window.alert("Number not in range.");
   }
   else{
+    //set up listener for #
     firebaseRef.on('value', function(snapshot) {
       var val = snapshot.child(thismessage).val();
       if (val) {
-        window.alert("Number is Prime.");
+        window.alert("Number is prime.");
       }
       else{
-        window.alert("Number is not Prime");
+        window.alert("Number is not prime");
       }
     });
-    /*if () {
-      window.alert("Number is Prime.");
-    }
-    else{
-      window.alert("Number is not Prime");
-    }*/
   }
 }
 
+
+//Not used
+
+//check prime
 function isPrime(num){
   var ceiling = Math.sqrt(num);
   var counter;
@@ -39,6 +39,7 @@ function isPrime(num){
   return true;
 }
 
+//table set up
 function setTable() {
   var i;
   var firebaseRef =  firebase.database().ref();

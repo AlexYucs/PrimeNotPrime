@@ -282,7 +282,10 @@ h4 {
         min-height: 100%;
         margin: auto;
         margin-bottom: -70px; /* Put negative height of the footer here */
-        padding-bottom: 70px; 
+        padding-bottom: 70px;
+    }
+    .thisfoot {
+        position: relative;
     }
     .sidebar {
         width: 100%;
@@ -322,6 +325,9 @@ h4 {
         margin: auto;
         margin-bottom: -70px; /* Put negative height of the footer here */
         padding-bottom: 70px;
+    }
+    .thisfoot {
+        position: relative;
     }
     .sidebar {
         width: 100%;

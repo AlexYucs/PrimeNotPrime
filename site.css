@@ -93,6 +93,7 @@ body {
     height: 100%;
     /* For at least Firefox */
     min-height: 100%;
+    margin-bottom: -70px;
 }
 
 .blogmain {
@@ -234,7 +235,7 @@ body {
  */
 
 .thisfoot {
-  position: fixed;
+  position: relative;
 	bottom: 0;
 	width: 100%;
 	margin:0;
@@ -281,6 +282,7 @@ h4 {
         /* For at least Firefox */
         min-height: 100%;
         margin: auto;
+        margin-bottom: -70px;
     }
     .sidebar {
         width: 100%;
@@ -318,6 +320,7 @@ h4 {
         /* For at least Firefox */
         min-height: 100%;
         margin: auto;
+        margin-bottom: -70px;
     }
     .sidebar {
         width: 100%;

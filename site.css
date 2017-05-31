@@ -94,6 +94,7 @@ body {
     /* For at least Firefox */
     min-height: 100%;
     margin-bottom: -70px;
+    padding-bottom: 70px;
 }
 
 .blogmain {
@@ -283,6 +284,7 @@ h4 {
         min-height: 100%;
         margin: auto;
         margin-bottom: -70px;
+        padding-bottom: 70px;
     }
     .sidebar {
         width: 100%;
@@ -321,6 +323,7 @@ h4 {
         min-height: 100%;
         margin: auto;
         margin-bottom: -70px;
+        padding-bottom: 70px;
     }
     .sidebar {
         width: 100%;

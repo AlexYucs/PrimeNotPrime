@@ -7,7 +7,8 @@ function checkTable() {
   var thismessage = sText.value;
 
   //check if # in range
-  if (thismessage < 0 || thismessage > 9999){
+
+  if ( /^-?\d+$/.test(thismessage) ||thismessage < 0 || thismessage > 9999){
     window.alert(thismessage+" is not in range.");
   }
   else{
